@@ -517,7 +517,7 @@ intellectual
 * Medium: Text 
 * Reference: Gao, L. and Huang, R., 2018. Detecting Online Hate Speech Using Context Aware Models. ArXiv,. 
 
-### The Gab Hate Corpus: A collection of 27k posts annotated for hate speech
+#### The Gab Hate Corpus: A collection of 27k posts annotated for hate speech
 * Link to publication: [https://psyarxiv.com/hqjxn/](https://psyarxiv.com/hqjxn/)
 * Link to data: [https://osf.io/edua3/](https://osf.io/edua3/)
 * Task description: Binary (Hate vs. Offensive/Vulgarity), Binary (Assault on human Dignity/Call for Violence – sub task on message delivery, binary: explicit/implicit), Multinomial classification: Identity based hate (race/ethnicity, nationality/regionalism/xenophobia, gender, religion/belief system, sexual orientation, ideology, political identification/party, mental/physical health)  
@@ -904,7 +904,7 @@ nt-dates/data/](https://amiibereval2018.wordpress.com/important-dates/data/)
 #### Anatomy of Online Hate: Developing a Taxonomy and Machine Learning Models for Identifying and Classifying Hate in Online News Media 
 * Link to publication: [https://www.aaai.org/ocs/index.php/ICWSM/ICWSM18/paper/viewFile/17885/17024](https://www.aaai.org/ocs/index.php/ICWSM/ICWSM18/paper/viewFile/17885/17024)
 * Link to data: [https://www.dropbox.com/s/21wtzy9arc5skr8/ICWSM18%20-%20SALMINEN%20ET%20AL.xlsx?dl=0](https://www.dropbox.com/s/21wtzy9arc5skr8/ICWSM18%20-%20SALMINEN%20ET%20AL.xlsx?dl=0)
-* Task description:  Binary (Hate, Not), Multinomial classification (21 categories divided into 'hateful language', 'hate targets' and 'hate sub-targets') 
+* Task description:  Binary (Toxic, Non-toxic), Multinomial classification (21 categories divided into 'hateful language', 'hate targets' and 'hate sub-targets') 
 * Details of task: Group-directed + Person-directed
 * Size of dataset: 5,143
 * Percentage abusive: 82%
@@ -913,6 +913,19 @@ nt-dates/data/](https://amiibereval2018.wordpress.com/important-dates/data/)
 * Platform: YouTube and Facebook
 * Medium: Text
 * Reference: Salminen, J., Almerekhi, H., Milenković, M., Jung, S., An, J., Kwak, H. and Jansen, B., 2018, Anatomy of Online Hate: Developing a Taxonomy and Machine Learning Models for Identifying and Classifying Hate in Online News Media, In: Proceedings of the Twelfth International AAAI Conference on Web and Social Media (ICWSM 2018), pp.330-339
+
+#### HateXplain: A Benchmark Dataset for Explainable Hate Speech Detection
+* Link to publication: [https://doc.paperpass.com/foreign/arXiv201210289.html](https://doc.paperpass.com/foreign/arXiv201210289.html)
+* Link to data: [https://github.com/punyajoy/HateXplain](https://github.com/punyajoy/HateXplain)
+* Task description: Binary (Toxic, Non-toxic) and Three-class (Hate speech, Offensive language, None)
+* Details of task: Hate speech(African,Islam,Jewish,LGBTQ,Women,Refugee,Arab,Caucasian, Hispanic, Asian) detection on social media in English
+* Size of dataset: 20148
+* Percentage abusive: 0.57
+* Language: English
+* Level of annotation: Posts
+* Platform: Twitter and Gab
+* Medium: Text
+* Reference: Mathew, B., Saha, P., Yimam, S. M., Biemann, C., Goyal, P., & Mukherjee, A. (2021, May). HateXplain: A Benchmark Dataset for Explainable Hate Speech Detection. In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 35, No. 17, pp. 14867-14875).
 
 <a id="Estonian-header"></a>
 ### Estonian
